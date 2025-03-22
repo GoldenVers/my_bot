@@ -1,0 +1,32 @@
+[0.242s] Invoking command in '/home/ubuntu/ros2_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/launch_testing_examples:/home/ubuntu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_service:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_client:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ubuntu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/my_bot/build/my_bot -- -j8 -l8
+[1.337s] Invoked command in '/home/ubuntu/ros2_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/launch_testing_examples:/home/ubuntu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_service:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_client:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ubuntu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/my_bot/build/my_bot -- -j8 -l8
+[1.391s] Invoking command in '/home/ubuntu/ros2_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/launch_testing_examples:/home/ubuntu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_service:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_client:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ubuntu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/my_bot/build/my_bot
+[1.420s] -- Install configuration: ""
+[1.422s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/config
+[1.422s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.422s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[1.423s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/description
+[1.423s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.423s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.423s] -- Installing: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.572s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/launch
+[1.572s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.572s] -- Installing: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.572s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/worlds
+[1.572s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[1.572s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.573s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.573s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.573s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.573s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[1.573s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[1.573s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[1.573s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[1.573s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[1.573s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[1.573s] -- Installing: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[1.582s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.582s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.582s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.583s] -- Up-to-date: /home/ubuntu/ros2_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[1.584s] Invoked command in '/home/ubuntu/ros2_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/launch_testing_examples:/home/ubuntu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_service:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_client:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ubuntu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ubuntu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ubuntu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/my_bot/build/my_bot
