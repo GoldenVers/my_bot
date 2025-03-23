@@ -8,6 +8,12 @@ from launch_ros.actions import Node
 def generate_launch_description():
     package_name = 'my_bot'  # Your package name
 
+    # path to the yaml bridge file
+    bridge_config = os.path.join(
+        get_package_share_directory(package_name),
+        'config', 'bridge.yaml'
+    )
+
     # Path to the XACRO file
     xacro_file = os.path.join(
         get_package_share_directory(package_name),
@@ -63,8 +69,11 @@ def generate_launch_description():
         output='screen'
     )
 
+
+
     return LaunchDescription([
         rsp,
         gazebo,
         spawn_entity,
+        
     ])
