@@ -77,3 +77,28 @@ def generate_launch_description():
         spawn_entity,
         
     ])
+
+
+
+
+    #what do we do here.
+    # we have to launch the robot state publisher
+    # we have to launch gazebo
+    # we have to spawn the robot in gazebo
+    # we have to launch the bridge
+    # we have to launch the controller
+    # we have to launch the rviz
+    # we have to launch the teleop
+
+    #first command : ros2 launch my_bot launch_sim.launch.py
+    #second command : ros2 run ros_gz_bridge parameter_bridge /cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist
+    #third command : ros2 topic list; to make sure the bridge is working
+    #fourth command : ros2 run teleop_twist_keyboard teleop_twist_keyboard
+    #now the robot should be moving in the gazebo
+    #fifth command : ros2 run ros_gz_bridge parameter_bridge /odom@nav_msgs/msg/Odometry[ignition.msgs.Odometry --ros-args -r /odom:=/odom
+    #sixth command : ros2 topic list; to make sure the bridge is working
+    #seventh command : ros2 run rviz2 rviz2
+    #in rviz, make the fixed frame to "my_bot/odom"
+    #add odometry by topic and select /odom
+    #the robot should be moving in rviz
+    
